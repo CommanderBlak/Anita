@@ -9,6 +9,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
@@ -20,40 +21,38 @@
     </div><!-- End of logo -->
   </div><!-- End of jumbotron -->
 
-  <div class="container" id="banner"><!-- Begining of container -->
+  <div class="container-fluid" id="banner"><!-- Begining of container -->
     <section>
       <div class="row"><!-- Beginning of happy hour and party time -->
-        <div class="col-xs-6 col-lg-3"><!-- Beginning of fastfood thumbnail -->
-          <div class="happy"><!-- Beginning of happy hour -->
-              <p>happy hour</p>
+        <div class="col-xs-12 col-lg-3"><!-- Beginning of fastfood thumbnail -->
+          <div class="happy" id="d"><!-- Beginning of happy hour -->
+              <p>Happy Hour</p>
           </div><!-- End of happy hour -->
-          <div class="party"><!-- Beginning of party time -->
-              <p>party time</p>
+          <div class="party" id="e"><!-- Beginning of party time -->
+              <p>Party Time</p>
           </div><!-- End of party time -->
         </div><!-- End of fastfood thumbnail -->
-        <div class="col-xs-6 col-lg-3" id="breakfast"><!-- Beginning of breakfast -->
-          <p><i>Breakfast</i></p>
+        <div class="col-xs-12 col-lg-3  text-center" id="breakfast"><!-- Beginning of breakfast -->
+          <p id="breakfastftext"><i>Breakfast</i></p>
         </div><!-- End of breakfast -->
-        <div class="col-xs-6 col-lg-3"><!-- Beginning of lunch -->
-          <img src="img/foodtop/lunch.jpg" alt="lunch">
+        <div class="col-xs-12 col-lg-3 text-center" id="lunch"><!-- Beginning of lunch -->
           <p><i>Lunch</i></p>
         </div><!-- End of lunch -->
-        <div class="col-xs-6 col-lg-3"><!-- Beginning of dinner -->
-          <img src="img/foodtop/dinner.jpg" alt="">
+        <div class="col-xs-12 col-lg-3 text-center" id="dinner"><!-- Beginning of dinner -->
           <p><i>Dinner</i></p>
         </div><!-- End of dinner -->
       </div><!-- End of happy hour and partytime -->
     </section>
   </div><!-- End of container -->
 
-  <div class="container-fluid" id="f'n'd"><!-- Beginning of food and drink container -->
+  <div class="container" id="foodcontainer"><!-- Beginning of food and drink container -->
     <section>
-      <div class="col-md-6 img-thumbnail" id="foodpics"><!-- Beginning of food images -->
-          <img src="img/fastFood1.jpg" alt="fastFood1" height=50%;>
-          <img src="img/fastFood2.jpg" alt="fastFood2" height=50%;>
+      <div class="col-xs-12 col-md-6 img-thumbnail" id="foodpics"><!-- Beginning of food images -->
+          <img src="img/fastFood1.jpg" alt="fastFood1">
+          <img src="img/fastFood2.jpg" alt="fastFood2">
       </div><!-- End of food images -->
 
-      <div class="col-md-4" id="food"><!-- Beginning of food -->
+      <div class="col-md-6" id="food"><!-- Beginning of food -->
           <h2><strong>Fast Food</strong></h2>
           <h4>You'll love our delicious fast food</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -65,13 +64,55 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
           <button type="button" name="button" class="btn btn-default btn-lg">VIEW GALLERY</button>
       </div><!-- End of food -->
-  <div class="row" id="drink"><!-- Beginning of drink images -->
+    </section>
+  </div><!-- End of food container -->
 
-  </div>
-  </section>
-</div><!-- End of food and drink container -->
+  <div class="container" id="drinkcontainer"><!-- Beginning of drink container -->
+    <section>
+    <div class="row ro" id="drink"><!-- Beginning of drink -->
+      <div class="col-md-4" id="drinks">
+          <h2 class="featurette-heading">Drinks</h2>
+          <h4>we also produce delicious drinks</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" name="button" class="btn btn-default btn-lg">VIEW GALLERY</button>
+      </div>
+      <div class="col-md-6 img-thumbnail">
+          <img src="img/drink1.jpg" alt="">
+          <img src="img/drink2.jpg" alt="">
+      </div>
 
+    </div><!-- End of drink -->
+    </section>
+  </div><!-- End of drink container -->
 
+  <div class="jumbotron2" id="float"><!-- Beginning of jumbotron2 -->
+
+  <nav class="navbar navbar-static liam text-center">
+      <div class="img-thumbnail bobo">
+          <ul class="nav nav-tabs ">
+            <li class="active"><a data-toggle="tab" href="#Home">Fast Food</a></li>
+            <li><a data-toggle="tab" href="#">Drinks</a></li>
+            <li><a data-toggle="tab" href="#">Chicken</a></li>
+            <li><a data-toggle="tab" href="#">Rice</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <span class=" glyphic glyphicon glyphicon-chevron-left">
+              <img src="img/fastfood/beefBurger.jpg" alt="BeefBurger">
+              <img src="img/fastfood/chickenPizza.jpg" alt="ChickenPizza">
+              <img src="img/fastfood/chickenBurger.jpg" alt="ChickenBurger">
+              <span class=" glyphic glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+      </div>
+    </nav>
+  </div><!-- End of jumbotron2 -->
 
 
 
