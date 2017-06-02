@@ -1,0 +1,29 @@
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(../img/backgrounds/landing.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 500px;
+  color: white;
+}
+
+p {
+  font-family: "Times";
+}
+
+#logotext {
+  font-size: 30px;
+}
+
+#foodpics {
+
+}
+
+#breakfast {
+  background-image: url(../img/foodtop/breakfast.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white;
+}
