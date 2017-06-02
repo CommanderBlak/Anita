@@ -29,7 +29,7 @@ p {
   font-family: "Times";
 }
 
-.featurette-heading {
+.food-heading {
   font-family: "Hevitica";
 }
 #banner {
@@ -162,4 +162,8 @@ form {
 
 .placeholder {
   height: 100%;
+}
+
+.img-thumbnail {
+box-shadow: 5px 5px 5px 5px #888888;
 }
