@@ -33,7 +33,7 @@
           </div><!-- End of party time -->
         </div><!-- End of fastfood thumbnail -->
         <div class="col-xs-12 col-lg-3  text-center" id="breakfast"><!-- Beginning of breakfast -->
-          <p id="breakfastftext"><i>Breakfast</i></p>
+          <p id="breakfasttext"><i>Breakfast</i></p>
         </div><!-- End of breakfast -->
         <div class="col-xs-12 col-lg-3 text-center" id="lunch"><!-- Beginning of lunch -->
           <p><i>Lunch</i></p>
@@ -53,7 +53,7 @@
       </div><!-- End of food images -->
 
       <div class="col-xs-12 col-md-6 col-lg-6" id="food"><!-- Beginning of food -->
-          <h2><strong>Fast Food</strong></h2>
+          <h2 class="featurette-heading"><strong>Fast Food</strong></h2>
           <h4>You'll love our delicious fast food</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -72,7 +72,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <div class="row ro" id="drink"><!-- Beginning of drink -->
       <div class="col-xs-12 col-md-6 col-lg-6" id="drinktext"><!--Beginning of drinktext -->
           <h2 class="featurette-heading">Drinks</h2>
-          <h4>we also produce delicious drinks</h4>
+          <h4>We also produce delicious drinks</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -102,25 +102,28 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
           <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-              <span class=" glyphic glyphicon glyphicon-chevron-left">
+              <span class="glyphic glyphicon glyphicon-chevron-left">
               <img src="img/fastfood/beefBurger.jpg" alt="BeefBurger">
               <img src="img/fastfood/chickenPizza.jpg" alt="ChickenPizza">
               <img src="img/fastfood/chickenBurger.jpg" alt="ChickenBurger">
-              <span class=" glyphic glyphicon glyphicon-chevron-right"></span>
+              <span class="glyphic glyphicon glyphicon-chevron-right">
             </div>
           </div>
       </div>
     </nav>
   </div><!-- End of jumbotron2 -->
 
-  <div class="testimonials"><!-- Beginning of testimonials -->
+  <div class="testimonies" id="contact"><!-- Beginning of testimonies -->
     <div class "navbar navbar-statis-top">
        <div class="row">
          <div class="img-thumbnail lolo col-md-8 col-md-offset-2">
            <div class="col-xs-12 col-md-6 col-lg-6">
-             <h3 class="clas">Our Happy Customers</h3>
-             <h4 class="clas">George Richard</h4>
-             <p class="clas">Great food!Menu is awesome,their foods are not only
+             <h3>Our Happy Customers</h3>
+             <h4>George Richard</h4><div class="container" id="drinkcontainer"><!-- Beginning of drink container -->
+    <section>
+    </section>
+  </div><!-- End of drink container -->
+             <p>Great food!Menu is awesome,their foods are not only
                 great but<br>also in the right price.I'll highly recommend them :).</p>
            <div class="clas">
              <span class=" glyphic glyphicon glyphicon-chevron-left">
@@ -141,34 +144,33 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
        </div>
      </div>
    </div>
-  </div><!-- End of testimonial -->
+ </div><!-- End of testimonies -->
 
   <div class="jumbotron3"><!-- Beginning of jumbotron3 -->
   <div class="ken navbar-static-top">
     <div class="pic cc">
-      <div class="row"id="contact">
-        <h1>Get Our daily food items delivered to your email<br><h1>
+      <div class="row">
+        <h1 id="contactheader">Get Our daily food items delivered to your email<br><h1>
+        <div class="placeholder">
         <form>
-        <input type="email" placeholder="Enter your email">
-        <button type="button" name="button">subscribe</button>
+          <input type="text" name="" value="" placeholder="Your Email" id="email">
+          <button class="btn btn-inverted" type="button" name="button" id="subscribebutton">Subscribe</button>
         </form>
+      </div>
      </div>
    </div>
   </div>
 </div><!-- End of jumbotron3 -->
 
-<div class=""id="footer"><!-- Beginning of footer -->
+<div class="iconfooter"id="footer"><!-- Beginning of footer -->
     <center>
-    <img src="assets/footerlogos/logo_white.png" alt=""><h1>Menu</h1><br>
-    Thats what we are<br>
-    <div class="" id="fb">
-        <span class="glyphicon glyphicon-remove-sign"></span></p>
-    </div>
-
-    <img src="assets/footerlogos/twitter.png" alt="">
-    <img src="assets/footerlogos/pinterest.png" alt=""><br>
-    2016 Menu Restaurant
-</center>
+    <img src="img/footerlogos/logo_white.png" alt="">
+    <h1 id="footertext">Menu<br>Thats what we are</h1>
+    <img src="img/footerlogos/facebook.png" alt="" id="fb">
+    <img src="img/footerlogos/twitter.png" alt="">
+    <img src="img/footerlogos/pinterest.png" alt=""><br>
+    <p id="footersub">2016 Menu Restaurant</p>
+    </center>
 </div><!-- End of footer -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

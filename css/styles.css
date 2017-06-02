@@ -26,9 +26,12 @@
 }
 
 p {
-  font-family: "Hevetica", serif;
+  font-family: "Times";
 }
 
+.featurette-heading {
+  font-family: "Hevitica";
+}
 #banner {
   margin-left: -12px;
 }
@@ -65,13 +68,22 @@ p {
 }
 
 #breakfast {
-  background-image: url(../img/foodtop/breakfast.jpg);
+  background-image: url("../img/foodtop/breakfast.jpg");
   font-size: 16px;
   height: 200px;
   color: white;
   text-align:center;
   padding-top: 98px;
   padding-bottom: 98px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#breakfast:hover {
+  opacity: 0.6;
+  color: black;
 }
 
 #lunch {
@@ -84,6 +96,11 @@ p {
   padding-bottom: 98px;
 }
 
+#lunch:hover {
+  opacity: 0.6;
+  color: #000000;
+}
+
 #dinner {
   background-image: url(../img/foodtop/dinner.jpg);
   font-size: 16px;
@@ -94,11 +111,55 @@ p {
   padding-bottom: 98px;
 }
 
+#dinner:hover {
+  opacity: 0.6;
+  color: #000000;
+
+}
+
 #foodcontainer {
   padding: 50px;
 }
 
 #contact {
-  padding-bottom: 50px;
-  margin: 50px;
+}
+
+#contactheader {
+  font-size: 26px;
+  font-style: "Times";
+  color: white;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+#footer {
+  background-color: #F15A29;
+}
+ #footertext {
+   color: white;
+   font-family: "Times";
+ }
+
+ #footersub {
+   color: white;
+   font-family: "Times";
+ }
+
+#fb {
+  background-color: black;
+}
+
+#email {
+  opacity: 0.2;
+}
+
+.placeholder {
+  height: 100%;
 }
