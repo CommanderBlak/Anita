@@ -1,6 +1,6 @@
 .jumbotron {
   margin-bottom: 0px;
-  background-image: url(../img/backgrounds/landing.jpg);
+  background-image: url('../img/backgrounds/landing.jpg');
   background-size: cover;
   background-position: 0% 50%;
   background-repeat: no-repeat;
@@ -14,27 +14,46 @@
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 30px;
+  padding: 50px;
+}
+
+.jumbotron3 {
+  background-image: url('../img/backgrounds/subscribe.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Hevetica", serif;
+}
+
+#banner {
+  margin-left: -12px;
 }
 
 #d {
   background-color: #eaebed;
-  width: auto;
+  font-size: 16px;
+  width: 110%;
   height: 100px;
   color: black;
   text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 #e {
   background-color: #F15A29;
-  width: auto;
+  font-size: 16px;
+  width: 110%;
   height: 100px;
   color: white;
   text-align: center;
+  margin-left: 0px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 #logotext {
@@ -47,24 +66,39 @@ p {
 
 #breakfast {
   background-image: url(../img/foodtop/breakfast.jpg);
-  height: 200px;
-  color: white;
-  text-align:center;}
-
-#lunch {
-  background-image: url(../img/foodtop/lunch.jpg);
+  font-size: 16px;
   height: 200px;
   color: white;
   text-align:center;
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+#lunch {
+  background-image: url(../img/foodtop/lunch.jpg);
+  font-size: 16px;
+  height: 200px;
+  color: white;
+  text-align:center;
+  padding-top: 98px;
+  padding-bottom: 98px;
 }
 
 #dinner {
   background-image: url(../img/foodtop/dinner.jpg);
+  font-size: 16px;
   height: 200px;
   color: white;
   text-align:center;
+  padding-top: 98px;
+  padding-bottom: 98px;
 }
 
-#breakfasttext {
-  color: #FFFFFF;
+#foodcontainer {
+  padding: 50px;
+}
+
+#contact {
+  padding-bottom: 50px;
+  margin: 50px;
 }
